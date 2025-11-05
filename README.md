@@ -1,2 +1,2 @@
 # Proyecto-EDA-Friends
-Repositorio EDA de la serie Friends
+EDA de la serie Friends
