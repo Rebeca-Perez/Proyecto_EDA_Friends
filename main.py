@@ -123,7 +123,7 @@ df_h5 = (df_friends.groupby("special_episode")["rating"].mean().reset_index())
     plt.close para no se sobreescriben los gráficos.
 """
 plt.pie(df_h5["rating"], autopct="%1.2f%%", colors=["#2E4170", "#F8DB01"])
-plt.title("Rating de episodios especiales (S/N)")
-plt.legend("NS", loc="upper left")
+plt.title("Rating de episodios especiales")
+plt.legend(labels=["Ep.Normal", "Ep.Especial"], loc="upper left")
 plt.savefig("img/grafico_h5.png")
 plt.close()
